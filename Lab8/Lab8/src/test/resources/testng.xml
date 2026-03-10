@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab8-Full-Suite" verbose="1">
+
+    <test name="Bai3-Branch-Coverage">
+        <classes>
+            <class name="org.example.bai3.XepLoaiTest"/>
+            <class name="org.example.bai3.TienNuocTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai4-BasisPath">
+        <classes>
+            <class name="org.example.bai4.PhiShipBasisPathTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai5-MCDC">
+        <classes>
+            <class name="org.example.bai5.VayVonMCDCTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai6-TDD-POM">
+        <classes>
+            <class name="org.example.bai6.PhoneValidatorTest"/>
+            <class name="org.example.bai6.TextBoxWhiteBoxTest"/>
+        </classes>
+    </test>
+
+    <test name="Bai7-OrderProcessor">
+        <classes>
+            <class name="org.example.bai7.OrderProcessorTest"/>
+        </classes>
+    </test>
+
+</suite>
